@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="formatos.css">
+  
+</head>
+
+<body>
+
+        <header>
+            <div class="cabecalho">
+                <ul>
+                    <li><a href="home.html"><h3>Home</h3></a></li>
+                    <li><a href="receitas.html"><h3>Receitas</h3></a></li>
+                    <li><a href="cadastro.html"><h3>Cadastro</h3></a></li>
+                </ul>
+            </div>
+        </header>
+    
+
+  
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <h1 class="mt-4 mb-4">Efetue seu Cadastro</h1>
+                <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+                    <div class="form-row">
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="form-control" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-8">
+                            <label for="rua">Rua:</label>
+                            <input type="text" class="form-control" id="rua" name="rua" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="numero">N°:</label>
+                            <input type="text" class="form-control" id="numero" name="numero" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="complemento">Complemento:</label>
+                        <input type="text" class="form-control" id="complemento" name="complemento">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" class="form-control" id="cidade" name="cidade" required>
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="estado">UF:</label>
+                            <input type="text" class="form-control" id="uf" name="uf" required>
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label for="cep">CEP:</label>
+                            <input type="text" class="form-control" id="cep" name="cep" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; Jurema 2022</p>
+    </footer>
+
+    <!-- Inclusão do Bootstrap JavaScript via CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6C/9O+eAYK7YO5yA6VvN8eTOgMbmj4bR5j5tr"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
